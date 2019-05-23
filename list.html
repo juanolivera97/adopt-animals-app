@@ -7,18 +7,100 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
     <title>Listado de animales</title>
   </head>
   <body>
     
-    <form>
-      <div class="form-group">
-        <label for="exampleFormControlFile1">Example file input</label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    <header class="header">
+      <div class="container logo-nav-container">
+        <a href="#" class="logo">Logo</a>
+        <span class="menu-icon">Ver menú</span>
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="newAnimal.html">Registro Animal</a></li>
+            <li><a href="#">Lista de animales</a></li>
+            <li><a href="#">Adoptar</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
       </div>
-    </form>
+    </header>
 
+
+      <div class="container">
+        <section class="main row">
+          <article class="col-md-9">
+            <h2>Articulo</h2>
+            <img src="assets/foto.jpg" alt="">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+              vitae consectetur nulla facere excepturi laudantium, quod id fugiat cupiditate.      
+            </p>
+          </article>
+
+          <aside class="col-md-3">
+            <h2>Descripción</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+              Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+              vitae consectetur nulla facere excepturi laudantium, quod id fugiat cupiditate.    
+            </p>
+          </aside>
+        </section>
+      
+
+      <div class="row">
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/descarga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">"Trueno"</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="animal.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div> 
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/Loro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">"Juancho"</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">"Fito"</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/conejo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">"Ramón"</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+    <footer>
+
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
