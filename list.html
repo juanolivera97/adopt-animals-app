@@ -1,28 +1,204 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Listado de animales</title>
-  </head>
-  <body>
-    
-    <form>
-      <div class="form-group">
-        <label for="exampleFormControlFile1">Example file input</label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/fontello.css">
+  <title>Listado de animales</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1 class="icon-guidedog">Terranimal</h1>
+      <input type="checkbox" name="" id="menu-bar">
+      <label class="icon-menu" for="menu-bar"></label>
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a href="newAnimal.html">Registro Animal</a>
+        <a href="list.html">Lista de animales</a>
+        <a href="#">Adoptar</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <section class="main row">
+      <article class="col-md-9">
+        <h2>Articulo</h2>
+        <img src="assets/foto.jpg" alt="">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+          vitae consectetur nulla facere excepturi laudantium, quod id fugiat cupiditate.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+          vitae consectetur nulla facere excepturi laudantium, quod id fugiat cupiditate.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Nobis eaque, magnam repudiandae nam veniam nihil incidunt ad molestiae soluta accusamus.
+        </p>
+      </article>
+
+      <aside class="col-md-3">
+        <h2>Buscar Animal:</h2>
+        <div class="form-group">
+          <label for="option">Tipo:</label>
+          <select class="form-control" name="" id="option">
+            <option value=""></option>
+            <option value="">Perro</option>
+            <option value="">Gato</option>
+            <option value="">Canario</option>
+            <option value="">Conejo</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label for="option">Sexo:</label>
+            <select class="form-control" name="" id="option">
+              <option value=""></option>
+              <option value="">Macho</option>
+              <option value="">Hembra</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="option">Raza:</label>
+            <select class="form-control" name="" id="option">
+              <option value=""></option>
+              <option value="">Boxer</option>
+              <option value="">Caniche</option>
+              <option value="">Labrador</option>
+              <option value="">Bulldog</option>
+              <option value="">Poodle</option>
+            </select>
+
+            <div class="form-group">
+              <label for="option">Barrio:</label>
+              <select class="form-control barrio" name="" id="option">
+                <option value=""></option>
+                <option value="">Aguada</option>
+                <option value="">Prado</option>
+                <option value="">Pocitos</option>
+                <option value="">Centro</option>
+                <option value="">Carrasco</option>
+                <option value="">Cordón</option>
+              </select>
+            </div>
+          </div>
+
+          <input class="btn btn-primary" type="button" value="Buscar">
+      </aside>
+    </section>
+
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/descarga.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Trueno"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="animal.html" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
       </div>
-    </form>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/Loro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Juancho"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/gato.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Fito"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/conejo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Ramón"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/perro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Thor"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/gatito.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">"Ceniza"</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Ir a Perfil</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+
+  <footer>
+    <div class="container">
+      <p class="copy">Terranimal &copy; 2019</p>
+      <div class="sociales">
+        <a class="icon-facebook" href=""></a>
+        <a class="icon-twitter" href=""></a>
+        <a class="icon-instagram" href=""></a>
+        <a class="icon-googleplus-rect" href=""></a>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
