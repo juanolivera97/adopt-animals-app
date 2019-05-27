@@ -43,7 +43,7 @@ header .container{
     display: table;
 }
 .speed{
-    padding: 8rem;
+    padding-top: 5rem;
     background: #D0ECE7;
 }
 header{
@@ -112,6 +112,21 @@ footer .container{
         transition: all 0.5s;
         transform: translateX(-100%);
     }
+}
+.title{
+    text-align: center;
+    color: black;
+}
+.content{
+    padding-top: 5rem;
+}
+.data-dog{
+    padding-top: 50px;
+    margin-left: -112px;
+}
+.data-dueño{
+    padding-top: 50px;
+    margin-left: -50px;
 }
 
 
