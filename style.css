@@ -42,7 +42,7 @@ header label{
 header .container{
     display: table;
 }
-.speed{
+.registro-animal{
     padding-top: 5rem;
     background: #D0ECE7;
 }
@@ -126,11 +126,14 @@ footer .container{
 }
 .data-dueño{
     padding-top: 50px;
-    margin-left: -50px;
+    margin-left: -123px;
 }
 .animal-description{
     padding-top: 5rem;
     
+}
+.gato{
+    margin-left: -12px;
 }
 
 
